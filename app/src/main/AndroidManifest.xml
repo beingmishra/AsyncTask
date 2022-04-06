@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AsyncTask"
         android:usesCleartextTraffic="true">
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
-            android:name=".OTPActivity"
-            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:name=".ServiceActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".OTPActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
