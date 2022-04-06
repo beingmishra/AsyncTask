@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OTPActivity">
+
+    <TextView
+        android:id="@+id/otpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        android:layout_centerHorizontal="true"
+        android:text="OTP Verification"/>
+
+    <LinearLayout
+        android:id="@+id/otpView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/otpText"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp">
+
+        <EditText
+            android:id="@+id/otp_edit_box1"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/otp_edit_box2"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/otp_edit_box3"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/otp_edit_box4"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/otpView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

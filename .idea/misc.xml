@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/AsyncTask/app/src/main/res/drawable/otp_bg.xml" value="0.133" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/AsyncTask/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/AsyncTask/app/src/main/res/layout/activity_otpactivity.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/AsyncTask/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
       </map>
     </option>
