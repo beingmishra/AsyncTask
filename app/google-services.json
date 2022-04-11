@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058358472819",
+    "project_id": "asynctask-fae41",
+    "storage_bucket": "asynctask-fae41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058358472819:android:eb4991269800c36340fa06",
+        "android_client_info": {
+          "package_name": "com.example.asynctask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058358472819-ja2ksk9vum6176u36ipl9nuepbiufupk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3fg4_SFTho5vBnaytXKKUIRMWIYy9-o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058358472819-ja2ksk9vum6176u36ipl9nuepbiufupk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
